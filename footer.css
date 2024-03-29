@@ -1,0 +1,27 @@
+footer {
+  background-image: url("stacked-waves-haikei.svg");
+  background-color: rgb(210, 249, 255);
+  padding: 30px;
+}
+
+#footer_items {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8% 25px 8%;
+  align-items: center;
+}
+
+#copyright {
+  color: #1d1d1d;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  #footer_items {
+    flex-direction: column;
+  }
+
+  footer .social-media-buttons {
+    margin-top: 15px;
+  }
+}
